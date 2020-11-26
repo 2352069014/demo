@@ -3,7 +3,6 @@
     "description": "这是一个测试包描述",
     "type": "project",
     "require-dev": {
-        "php": "thinkphp",
         "topthink/think": "*"
     },
     "license": "mit",

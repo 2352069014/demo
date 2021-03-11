@@ -1,17 +1,15 @@
 {
-    "name": "2452069014/demo",
-    "description": "这是一个测试包描述",
+    "name": "2352069014/demo",
     "type": "project",
-    "require-dev": {
-        "topthink/think": "*"
+    "require": {
+        "mews/captcha": "^2.3"
     },
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
-            "name": "2352069014",
+            "name": "yqx",
             "email": "2352069014@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }

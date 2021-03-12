@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b9acb3f-a565-4316-bb7f-98ffce7224af" name="默认的" comment="" />
+    <list default="true" id="9b9acb3f-a565-4316-bb7f-98ffce7224af" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +14,20 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
       <command text="xdebug" />
     </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/../bnkf/bnxm_web/node_modules" />
@@ -27,7 +40,16 @@
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="F:\phpstudy_pro\WWW\demo" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost/demo/" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.3.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.3.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/cszchen/citizenid" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+    </include_path>
+  </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1" port="9000" />
   <component name="ProjectId" id="1lOvat7xtpClsxW2quhGebVA2zX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,9 +58,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../phpstudy/PHPTutorial/WWW/fcg" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,7 +129,8 @@
       <workItem from="1609896114918" duration="249000" />
       <workItem from="1609983691747" duration="599000" />
       <workItem from="1610607803378" duration="6000" />
-      <workItem from="1615445044049" duration="1303000" />
+      <workItem from="1615445044049" duration="4748000" />
+      <workItem from="1615513559624" duration="565000" />
     </task>
     <servers />
   </component>
@@ -117,14 +141,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="806" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615452460181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615452460181" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1607484797733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607484797733" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1609896365683">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1615514127973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609896365683" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615514127973" />
     <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1609228050501">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,10 +201,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="338" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609228050502" />
-    <state x="692" y="240" key="NewPhpClassDialog" timestamp="1615445096764">
+    <state x="692" y="240" key="NewPhpClassDialog" timestamp="1615454806487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="240" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615445096764" />
+    <state x="692" y="240" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615454806487" />
+    <state x="785" y="443" key="NewPhpFileDialog" timestamp="1615453250938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615453250938" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1608703111395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

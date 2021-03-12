@@ -2,7 +2,7 @@
     "name": "2352069014/demo",
     "type": "project",
     "require": {
-        "mews/captcha": "^2.3"
+        "cszchen/citizenid": "^2.0"
     },
     "license": "MIT",
     "authors": [
@@ -11,5 +11,12 @@
             "email": "2352069014@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files": ["app/Common.php"]
+    },
     "minimum-stability": "dev"
 }

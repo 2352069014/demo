@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/cszchen/citizenid" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+    </include_path>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="70a797b7-5948-4190-9120-87bd20230fe4" name="PHP7.3.4" home="F:\phpstudy_pro\Extensions\php\php7.3.4nts\php.exe" debugger_id="php.debugger.XDebug" debugger_extension="F:\phpstudy_pro\Extensions\php\php7.3.4nts\ext\php_xdebug.dll" />

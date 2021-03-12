@@ -1,0 +1,185 @@
+[11-Mar-2021 17:13:33 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'core\app\controller\Index' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:12
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 12
+[11-Mar-2021 17:13:56 Asia/Shanghai] PHP Parse error:  syntax error, unexpected '$controller' (T_VARIABLE), expecting identifier (T_STRING) in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 12
+[11-Mar-2021 17:17:22 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined function \app\controller\Index() in F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 13
+[11-Mar-2021 17:17:37 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class '\app\controller\Index()' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:14
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 14
+[11-Mar-2021 17:17:41 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class '\app\controller\Index()' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:14
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 14
+[11-Mar-2021 17:17:44 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class '\app\controller\Index()' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:14
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 14
+[11-Mar-2021 17:17:46 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class '\app\controller\Index()' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:14
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 14
+[11-Mar-2021 17:17:46 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class '\app\controller\Index()' not found in F:\phpstudy_pro\WWW\demo\core\Frame.php:14
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#1 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\Frame.php on line 14
+[12-Mar-2021 14:07:30 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function core\View::view(), 0 passed in F:\phpstudy_pro\WWW\demo\app\controller\Index.php on line 9 and exactly 2 expected in F:\phpstudy_pro\WWW\demo\core\View.php:15
+Stack trace:
+#0 F:\phpstudy_pro\WWW\demo\app\controller\Index.php(9): core\View->view()
+#1 F:\phpstudy_pro\WWW\demo\core\Frame.php(13): app\controller\Index->index()
+#2 F:\phpstudy_pro\WWW\demo\index.php(5): core\Frame::run()
+#3 {main}
+  thrown in F:\phpstudy_pro\WWW\demo\core\View.php on line 15
+[12-Mar-2021 14:08:07 Asia/Shanghai] PHP Catchable fatal error:  Object of class core\View could not be converted to string in F:\phpstudy_pro\WWW\demo\app\controller\Index.php on line 10
+[12-Mar-2021 14:08:07 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:08:07 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:08:07 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:08:07 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:08:36 Asia/Shanghai] PHP Catchable fatal error:  Object of class core\View could not be converted to string in F:\phpstudy_pro\WWW\demo\app\controller\Index.php on line 11
+[12-Mar-2021 14:08:36 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:08:36 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:08:36 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:08:36 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 17
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 17
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:12 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 18
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 18
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:28 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 18
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 18
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:29 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:50:39 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:13 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Warning:  include(): Filename cannot be empty in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:14 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.;C:\php\pear') in F:\phpstudy_pro\WWW\demo\core\View.php on line 19
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP Stack trace:
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   1. {main}() F:\phpstudy_pro\WWW\demo\index.php:0
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   2. core\Frame::run() F:\phpstudy_pro\WWW\demo\index.php:5
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   3. app\controller\Index->index() F:\phpstudy_pro\WWW\demo\core\Frame.php:13
+[12-Mar-2021 14:51:15 Asia/Shanghai] PHP   4. core\View->view() F:\phpstudy_pro\WWW\demo\app\controller\Index.php:9

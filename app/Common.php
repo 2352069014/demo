@@ -5,3 +5,7 @@ function dd($info){
     print_r($info);
     echo "</pre>";
 }
+
+function ec($info){
+    echo $info.'<br/>';
+}

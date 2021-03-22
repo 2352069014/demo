@@ -2,7 +2,8 @@
     "name": "2352069014/demo",
     "type": "project",
     "require": {
-        "cszchen/citizenid": "^2.0"
+        "cszchen/citizenid": "^2.0",
+        "fzaninotto/faker": "*"
     },
     "license": "MIT",
     "authors": [

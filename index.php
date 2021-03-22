@@ -2,4 +2,4 @@
 
 include 'vendor/autoload.php';
 
-core\Frame::run();
+\core\Frame::run();

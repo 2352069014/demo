@@ -10,6 +10,6 @@ class Index
     }
 
     public function ceshi(){
-        dd(['id'=>2,'name'=>'yqx','info'=>['age'=>14,'sex'=>'女']]);
+        dd('hehelow');
     }
 }
